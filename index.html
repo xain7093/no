@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SnsfU5ASCIRd0eR43H7XttSTHKRMP-3ZGQ&usqp=CAU" type="image/x-icon"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>no</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<!--導覽列-->
+<nav class="navbar fixed-top navbar-light "style="background-color: #060c21">
+  <form class="container-fluid justify-content-start">
+    <a class="btn btn-outline-danger" href="https://xain7093.github.io/music3/" role="button">回首頁</a>
+  </form>
+</nav>
+
+   <div class="box"><font color=" #9D9D9D">
+     <div class="content">
+        <h1>nonono</h1>
+     </div>
+   </div>
+</body>
+</html>
+<style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060c21;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+}
+
+.box::before {
+    content:"";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    right: -2px;
+    left: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+.box::after {
+    content:"";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    right: -2px;
+    left: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.box::before,
+.box::after {
+    background: linear-gradient(235deg,	#977C00,#060c21,	#00E3E3);
+} 
+
+.content {
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+</style>
